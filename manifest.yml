@@ -1,9 +1,10 @@
 modules:
   jira:issuePanel:
-    - key: jira-sample-app-hello-world-panel
+    - key: jira-generate-wireframe
       function: main
-      title: jira-sample-app
-      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+      title: Wireframe
+      icon: https://cdn-icons-png.flaticon.com/512/9775/9775605.png
+      description: AI-powered wireframe generator
   function:
     - key: main
       handler: index.run
