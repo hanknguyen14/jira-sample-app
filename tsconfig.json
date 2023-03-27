@@ -1,7 +1,7 @@
 {
-    "include": ["./src"],
-    "exclude": ["node_modules"],
-    "compilerOptions": {
+  "include": ["./src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
     "jsx": "preserve",
     "target": "ESNext",
     "useDefineForClassFields": true,
@@ -18,5 +18,5 @@
     "isolatedModules": true,
     "importHelpers": true,
     "removeComments": true
-    }
+  }
 }

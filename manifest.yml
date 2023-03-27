@@ -10,3 +10,10 @@ modules:
       handler: index.run
 app:
   id: ari:cloud:ecosystem::app/a38d4e52-06a0-4018-b977-ef4adaca68e7
+permissions:
+  scopes:
+    - "read:jira-work"
+  external:
+    fetch:
+      backend:
+        - "https://api.nlpcloud.io"
